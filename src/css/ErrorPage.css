@@ -1,0 +1,26 @@
+@media(max-width: 740px){
+    .error{
+    height: 38rem;
+
+    }
+}
+
+@media(max-width: 400px){
+    .error h3{
+        position: relative;
+        bottom: 4rem;
+    }
+}
+
+@media(max-width: 375px){
+    .error{
+width: 149%;
+    }
+}
+
+@media(max-width: 300px){
+    .error{
+width: 159%;
+font-size: 30px;
+    }
+}

@@ -1,0 +1,88 @@
+html{
+    font-size: 62.5%;
+}
+
+.row_images{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    position: relative;
+}
+
+.row_images::-webkit-scrollbar{
+    opacity: 0;
+}
+
+.row_images{
+   scrollbar-width: none;
+}
+
+h2{
+    text-align: left;
+    padding-left: 0.9rem;
+    color: white;
+}
+
+.row_img{
+    max-height: 24rem;
+    cursor: pointer;
+    padding-left:2rem;
+    object-fit: contain;
+    transition: transform 450ms;
+    color: white;
+}
+
+.row_img:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+.large_imagesRow{
+    max-height: 23rem;
+    
+}
+
+.large_imagesRow:hover{
+    transform: scale(1.09);
+}
+
+.row_images .MovieNames{
+    color: white;
+    /* margin-top: 342px; */
+    height: 18px;
+    width: 157px;
+    left: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.OriginalNames{
+    color: #ddd;
+    height: 30px;
+    top: -48px;
+    width: 100%;
+    /* left: -163px; */
+    position: relative;
+    padding-top: 1.05rem;
+    white-space: nowrap;
+    text-align: center;
+}
+.Movies{
+    height: 28rem;
+
+}
+#root{
+    height: 12rem;
+}
+
+@media(max-width : 375px){
+    .row{
+        width: 150%;
+    }
+}
+
+@media(max-width : 300px){
+    .row{
+        width: 160%;
+    }
+}
